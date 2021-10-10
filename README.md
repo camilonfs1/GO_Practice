@@ -71,3 +71,5 @@ Ther emust be one package calle main
 ## Short Variable Declaration
 
 > x := 100
+
+# Pointers
