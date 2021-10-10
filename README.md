@@ -51,3 +51,23 @@ Ther emust be one package calle main
 1. Integer (+, -, *, ...)
 2. Floating point
 3. Strings 
+
+## Type Declartions
+
+>type Clesius float64
+
+>type IDnum int
+
+## Initializing Variables
+
+> var x int = 100
+
+> var x = 100
+
+> var x int ----> x=100
+
+> var x int // x = 0 
+
+## Short Variable Declaration
+
+> x := 100
