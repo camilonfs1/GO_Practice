@@ -26,13 +26,28 @@ your workspace where you will store the different types of Go files that you're 
 
 Three subdirectories: 
 
-## 1. src - Contains source code files
-## 2. pkg - Contains packges (libraries)
-## 3. bin - Contains executables
+### 1. src - Contains source code files
+### 2. pkg - Contains packges (libraries)
+### 3. bin - Contains executables
 
 
 ## Import packages
 
-![iamge](dsdsd)
+![iamge](https://github.com/camilonfs1/GO_Practice/blob/main/src/Screenshot%20from%202021-10-09%2012-21-07.png)
 
 Ther emust be one package calle main
+
+# Variables
+
+1. Must have a name and a type
+2. All variables must have declarations
+
+> var x int
+
+> var x, y int
+
+## Types
+
+1. Integer (+, -, *, ...)
+2. Floating point
+3. Strings 
