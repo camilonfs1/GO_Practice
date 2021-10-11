@@ -73,3 +73,40 @@ Ther emust be one package calle main
 > x := 100
 
 # Pointers
+
+A pointer is an address to some data in memory. Tips give virtual address but that doesn't matter to us too much right now. So, with Pointers, there are two main operators that are associated with Pointers. The ampersand operator right there, that returns the address of the variable or the function, whatever the name is referring to, and the star operator which dereferencing, does the opposite of the ampersand. It returns the data at the address.
+
+> & operator returns the address of a variable/function
+
+> (*) operator retuns data at an address (dereferncing)
+
+
+```go
+var x int = 1
+var y int
+var ip *int // ip is pointer to int
+
+ip = &x    // ip now points to x
+y = *ip    // y is now 1
+```
+
+> new ( ) function creates a variable and returns a pointer to the variable
+
+```go
+ptr := new (int)
+*ptr = 3
+```
+
+# Variable Scope
+
+The places in code where a variable can be accessed
+
+# Blocks 
+
+A sequence of declarations and statements within matching breackets, { }
+
+> Including functions definitions
+
+# Lexical Scoping
+
+Go is lexicallly scoped using blocks
